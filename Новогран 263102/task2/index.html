@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+  <div class="all">
+  <div class="menu">
+  <div onclick="openNav()" class="menu-btn">
+    <div class="btn"   ></div>
+    <div class="btn"  ></div>
+    <div class="btn" ></div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#anchor1">About</a>
+    <a href="#anchor2">Contact</a>
+  </div> 
+</div>
+</div>
+<span>About</span>
+<span class="melanish"> <b> Melanish </b></span>
+<span>Contact</span>
+</header>
+<main>
+ <section class="editorial">
+   <h2>Editorial</h2>
+   <img src="photos/Main-IMG.png" alt="">
+   <div class="names">
+    <table>
+      <th>Art Director</th>
+      <th>Creative Director</th>
+      <th>Designer</th>
+    </td>
+    <tr>
+      <td>Geoff Levy</td>
+      <td>Natailie Schneider</td>
+      <td>Em Design</td>
+    </tr>
+    </table>
+   </div> 
+ </section>
+<section class="editorial2">
+<img src="photos/the1.png" alt="">
+<div class="container_one">
+
+<h3>Editorial</h3>
+</section>
+</div>
+  <div class="dance_main">
+<img  src="photos/the3.png" alt="">
+</div>
+
+<section class="only_photo">
+  <div class="the4">
+<img  src="photos/the4.png" alt="">
+</div>
+<div>
+<div class="the5">
+<img  src="photos/the5.png" alt="">
+</div>
+<div class="the6">
+<img  src="photos/the6.png" alt="">
+</div>
+<div class="the7">
+<img  src="photos/the7.png" alt="">
+</div>
+</div>
+</section>
+<section class="editorial3">
+<div class="text">
+  <img src="/photos/the2.png" alt="">
+ 
+  <h3 class="nocolortext">Editorial</h3>
+  <h3 class="nocolortext">Editorial</h3>
+  <h3 class="colortext">Editorial</h3>
+ 
+</div>
+</section>
+</main>
+<footer>
+  <div class="project">
+  <h3>Next project</h3>
+</div>
+<div class="footer1">
+  <img src="/photos/mask3.png" alt="">
+</div>
+<div class="footer2">
+  <img src="/photos/1.png" alt="">
+</div>
+<div class="footer3">
+  <img src="/photos/Mask Group1.png" alt="">
+</div>  
+</footer>
+</body>
+<script>
+  let menuBtn = document.querySelector('.menu-btn');
+let menu = document.getElementById('menu')
+let scrolls = document.getElementById('scroll-to')
+let screen = window.innerWidth;
+
+function openNav() {
+
+        document.getElementById("mySidenav").style.width = "100%";
+    
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</html>

@@ -1,0 +1,279 @@
+body {
+    background-color: #D9C791;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    grid-template-columns: repeat(4, 2fr);
+    background-color: #731A3B;
+    z-index: 2;
+}
+
+a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F29F05;
+}
+
+@media screen and (max-width: 1024px)
+{
+    nav a 
+    {
+        padding-left: 12px;
+        padding-top: 10px;
+    }
+}
+
+h1 {
+    position: absolute;
+    color:  #0E1F26;
+    font-size: 45px;
+    top: 30px;
+    left: 10px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    h1
+    {
+        font-size: 35px ;
+    }
+}
+
+.qatar {
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    width: 400px;
+    height: 270px;
+}
+    @media screen and (max-width: 1024px)
+    {
+        .qatar
+        {
+            top: 300px;
+            left: 20px
+        }
+
+    }
+
+h3 {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 25px;
+    top: 150px;
+    left: 20px;
+}
+
+@media screen and (max-width: 1300px)
+{
+    .inform
+    {
+        top:140px;
+        left:20px;
+    }
+}
+
+h2 {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 30px;
+    top: 350px;
+    left: 20px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    h2
+    {
+        top: 570px;
+        left: 20px;
+    }
+} 
+
+.first {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 20px;
+    top: 395px;
+    left: 20px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .first
+    {
+        top: 620px;
+        left: 20px;
+        font-size: 17px;
+    }
+}
+
+.second {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 20px;
+    top: 395px;
+    left: 740px; 
+}
+
+@media screen and (max-width: 1024px)
+{
+    .second
+    {
+        top: 840px;
+        left: 20px;
+        font-size: 17px;
+    }
+}
+
+.lusail {
+    position: absolute;
+    top: 595px;
+    left: 80px;
+    width: 430px;
+    height: 280px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .lusail
+    {
+        top: 1110px;
+        left: 4px;
+    }
+}
+
+.stadium {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 20px;
+    top: 865px;
+    left: 80px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .stadium
+    {
+        top: 1380px;
+        left: 4px;
+        font-size: 16px;
+    }
+}
+
+.group {
+    position: absolute;
+    top: 595px;
+    left: 955px;
+    width: 430px;
+    height: 280px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .group
+    {
+        top: 1750px;
+        left: 4px;
+    }
+}
+
+.draw {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 20px;
+    top: 865px;
+    left: 955px; 
+}
+
+@media screen and (max-width: 1024px)
+{
+    .draw
+    {
+        top: 2020px;
+        left: 4px;
+        font-size: 16px;
+    }
+}
+
+.talis {
+    position: absolute;
+    top: 920px;
+    left: 80px;
+    width: 430px;
+    height: 280px;    
+}
+
+@media screen and (max-width: 1024px)
+{
+    .talis
+    {
+        top: 1430px;
+        left: 4px;
+    }
+}
+
+.lae {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 20px;
+    top: 1190px;
+    left: 80px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .lae
+    {
+        top: 1700px;
+        left: 4px;
+        font-size: 16px;
+    }
+}
+
+.gool {
+    position: absolute;
+    top: 920px;
+    left: 955px;
+    width: 430px;
+    height: 280px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .gool
+    {
+        top: 2070px;
+        left: 4px;
+    }
+}
+
+.mbap {
+    position: absolute;
+    color: #0E1F26;
+    font-size: 20px;
+    top: 1190px;
+    left: 955px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .mbap
+    {
+        top: 2340px;
+        left: 4px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,676 @@
+@font-face {
+	font-family: 'Nympha'; 
+	src: local('NrymphaTrial-Regular'),
+		url(../fonts/NymphaTrial-Regular.ttf) format('truetype'); 
+
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'SFPRO'; 
+	src: local('NrymphaTrial-Regular'),
+        url(../fonts/SFPRODISPLAYREGULAR.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    background-color: #030303;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+    }
+    header {
+        position: relative;
+    }
+header span {
+    padding: 80px;
+    color: #F2F2F2;
+    font-size: 18px;
+line-height: 21px;
+text-transform: uppercase;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.melanish {
+font-size: 28px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.editorial {
+    display: flex;
+    justify-content: space-around;
+}
+.editorial h2 {
+    color: #F2F2F2;
+    font-size: 220px;
+   z-index: 1;
+   position: absolute;
+   text-align: center;
+   margin: 120px auto;
+   font-family: 'Nympha';
+   letter-spacing: 10px;
+}
+.editorial img {
+    margin-top: 260px;
+    position: absolute;
+    z-index: 0;
+    margin-bottom: 550px;
+    width: 85%;
+    height: 850px;
+    text-align: center;
+   
+}
+.names {
+    margin-top: 1200px;
+}
+.names th {
+    color: gray;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-right: 87px;
+    font-family: 'SFPRO';
+}
+.names td {
+    color: #D6D0CE;
+    font-size: 24px;
+    font-family:'Nympha';
+}
+.editorial2 {
+    margin-top: 200px;
+}
+.editorial2 img {
+    width: 70%;
+    height: 100%;
+    margin-left: 6%;
+}
+.container_one {
+display: flex;
+justify-content: center;
+}
+
+.editorial2 h3 {
+margin-top: 50px;
+font-size: 220px;
+text-align: center;
+color: #8D8D8D;
+position: absolute;
+z-index: 0;
+text-align: center;
+font-family: 'Nympha';
+letter-spacing: 10px;
+}
+.dance_main {
+    float: inline-end;
+    margin-left: 15%; 
+}
+.dance_main img {
+    width: 72%;
+    height: 700px;
+    margin-top: 200px;
+    position: absolute;
+        z-index: 0;
+}
+.only_photo {
+    margin-top: 1000px;
+}
+.the4 img {
+    width: 65%;
+    margin-left: 6%;
+    height: 750px
+}
+.the5 img {
+    width: 30%;
+    height: 700px;
+    margin-left: 62%; 
+    position: absolute;
+    margin-top: 280px;
+}   
+.the6 img {
+    margin-top: 828px;
+margin-left: 6%;
+position: absolute;
+width: 35%;
+}
+.the7 img {
+    margin-left: 52%;
+    margin-top: 1471px; 
+    position: absolute;
+    width: 40%;
+}
+.nocolortext  {
+    -webkit-text-stroke: 1px #FFFFFF;
+    font-size: 260px;
+    color: #030303;
+    margin-top: 0px;
+margin-bottom: 0px;
+}
+.colortext {
+    font-size: 260px;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #FFFFFF;
+}
+.text {
+    margin-top: 2914px;
+    text-align: center;
+}
+.text img {
+    position: absolute;
+margin-left: -20%;    
+
+}
+.side {
+    margin-right: -15%;
+    float: right;
+}
+footer img {
+    position: absolute;
+
+}
+footer h3 {
+    font-size: 154px;
+    color: #FFFFFF;
+position: absolute;
+z-index: 3;
+font-family: 'Nympha';
+letter-spacing: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 541px;
+    padding-bottom: 700px;
+}
+.project {
+    display: flex;
+    justify-content: space-around;
+}
+.footer1 {
+    margin-left: -75%;
+    margin-bottom: 5%;
+    z-index: 1;
+}
+.footer2 {
+    margin-left: -30%;
+    z-index: 2;
+}
+.footer3 {
+  margin-left: 15%;
+  margin-top: 5%;
+  z-index: -1;
+}
+.footer2 img {
+    z-index: 2;
+}
+.footer3 img {
+   z-index: 0; 
+}
+@media(max-width:1080px) {
+    .text {
+        margin-top: 2414px;
+        text-align: center;
+    }
+    .editorial img {
+        margin-top: 260px;
+        position: absolute;
+        z-index: 0;
+        margin-bottom: 550px;
+        width: 85%;
+        height: 550px;
+        text-align: center;
+    }
+    .names {
+        margin-top: 900px;
+    }
+
+    
+}
+
+@media( min-width:2000px) {
+ .dance_main img {
+    height: 800px;
+ }
+ .the4 {
+    margin-top: 1300px;
+ }
+ .the4 img {
+    height: 1000px;
+ }
+ .names th {
+    font-size: 32px;
+ }
+ .names td {
+    font-size: 50px;
+    padding-right: 50px;
+ }
+ header span {
+    font-size: 30px;
+ }
+ header b {
+    font-size: 50px;
+ }
+}
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+    .editorial h2 {
+    margin-left: 7%;
+        font-size: 150px;
+    }
+    .editorial img {
+        margin-left: 7%;
+            margin-top: 180px;
+        }
+        .names {
+            margin-top: 760px;
+            margin-left: 14%;
+        }
+        .editorial2 img {
+            margin-top: -150px;
+            margin-left: 9%;
+        }
+        .editorial2 h3 {
+            font-size: 150px;
+        }
+        .dance_main img {
+            height: 500px;
+        }
+        .dance_main {
+            margin-left: 25%;
+            margin-top: -70px;
+        }
+        .the4 img {
+            height: 400px;
+            margin-top: 0px;
+        }
+        .the5 img {
+            height: 400px;
+        }
+        .text img {
+            margin-left: -35%;
+        }
+        .side  {
+            margin-right: -28%;
+        }
+        .project h3 {
+            margin-left: 8%;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        /* стили для больших планшетов - начало */
+        .editorial h2 {
+        margin-left: 7%;
+            font-size: 7em;
+        }
+        .editorial img {
+            margin-left: -5%;
+                margin-top: 180px;
+            }
+            .names {
+                margin-top: 760px;
+                margin-left: 14%;
+            }
+            .editorial2 img {
+                margin-top: -150px;
+                margin-left: 9%;
+            }
+            .editorial2 h3 {
+                font-size: 150px;
+            }
+            .dance_main img {
+                height: 500px;
+            }
+            .dance_main {
+                margin-left: 25%;
+                margin-top: -70px;
+            }
+            .the4 img {
+                height: 400px;
+                margin-top: 0px;
+            }
+            .the5 img {
+                margin-top: 50px;
+                height: 400px;
+            }
+            .the6 img {
+                margin-top: 500px;
+            }
+            .the7 img {
+                margin-top: 900px;
+            }
+            .text img {
+                margin-left: -45%;
+            }
+            .side  {
+               display: none;
+               margin-right: 0;
+            }
+            .text img {
+    
+                display: none;
+            }
+            .project h3 {
+                margin-left: 8%;
+                font-size: 100px;
+                margin-top: 100px;
+                padding-bottom: 300px;
+            }
+            footer {
+               margin-top: 0px;
+            }
+            main {
+                padding: 0;
+                margin-bottom: 0;
+                min-height: 4000px;
+            }
+            
+            .footer1 {
+                display: none;
+            }
+            .footer2 {
+                display: none;
+            }
+            .footer3 {
+                display: none;
+            }
+            .colortext {
+                display: none;
+            }
+            .nocolortext {
+                display: none;
+            }
+            .names th {
+                font-size: 12px;
+            }
+            .names td {
+                font-size: 20px;
+            }
+            header span {
+                display: none;
+            }
+            .container_one h3 {
+                font-size: 7em;
+            }
+            .menu-btn {
+                display: block;
+                 position: absolute;
+                 z-index:0;
+                 margin-top: 50px;
+           margin-left: 50px;
+             }
+             
+             .btn {
+                 margin-bottom:3px;
+                 width: 30px;
+                 height: 2px;
+                 background: #f1f1f1;
+                 transition: all 0.5s;
+             }
+             
+             .menu.active {
+                 transform: translateX(0);
+             }
+             
+            
+             li a {
+                 color: #fff;
+                 opacity: 1;
+                 text-transform: uppercase;
+             }
+            
+             .sidenav .closebtn {
+                 position: absolute;
+                 top: 0;
+                 right: 25px;
+                 font-size: 36px;
+                 margin-left: 50px;
+             }
+             .sidenav {
+                 height: 100%;
+                 width: 0;
+                 position: fixed;
+                 z-index: 5;
+                 top: 0;
+                 right: 0;
+                 background-color: #111;
+                 overflow-x: hidden;
+                 transition: 0.5s;
+                 padding-top: 60px;
+             }
+             
+             .sidenav a {
+                 padding: 8px 8px 8px 32px;
+                 text-decoration: none;
+                 font-size: 25px;
+                 color: #818181;
+                 display: block;
+                 transition: 0.3s;
+                 text-transform: uppercase;
+             }
+             
+             .sidenav a:hover {
+                 color: #f1f1f1;
+             }
+        }
+@media screen and (max-width: 616px) {
+    .editorial h2 {
+    margin-left: 7%;
+        font-size: 3em;
+        margin-top: 70px;
+    }
+    .editorial img {
+        margin-left: -5%;
+            margin-top: 180px;
+            height: 400px;
+        }
+        .names {
+            margin-top: 600px;
+            margin-left: 12%;
+        
+        }
+        .names td {
+            font-size: 15px;
+            padding-right: 0px;
+        }
+        .names th {
+            font-size: 10px;
+            padding-right: 60px ;
+            
+     
+        }
+        .editorial2 img {
+            margin-top: -150px;
+            margin-left: 9%;
+        }
+        .editorial2 h3 {
+            margin-top: 0px;
+            font-size: 3em;
+        }
+        .dance_main img {
+            height: 400px;
+        }
+        .dance_main {
+            margin-left: 12%;
+            margin-top: -170px;
+        }
+        .the4 img {
+            height: 350px;
+            margin-left: 17%;
+            margin-top: -300px;
+        }
+        .the5 img {
+            height: 300px;
+
+        }
+        .the6 img {
+            height: 300px;
+        }
+        .the7 img {
+            height: 300px;
+        }
+        .text img {
+            margin-left: -35%;
+        }
+        .side  {
+            margin-right: -28%;
+        }
+        .project h3 {
+            margin-top: -200px;
+            margin-left: 8%;
+            font-size: 50px;
+            padding-bottom: 0px;
+        
+        }
+        main {
+            min-height: 3500px;
+        }
+        footer {
+            padding-bottom: 50px;
+        }
+        .menu-btn {
+        
+            display: block;
+            position: absolute;
+            z-index:0;
+            margin-top: 50px;
+      margin-left: 50px;
+        }
+         
+         .btn {
+             margin-bottom:3px;
+             width: 30px;
+             height: 2px;
+             background: #f1f1f1;
+             transition: all 0.5s;
+             opacity: 0;
+         }
+         
+         .menu.active {
+             transform: translateX(0);
+         }
+         
+        
+         li a {
+             color: #fff;
+             opacity: 1;
+             text-transform: uppercase;
+         }
+         html {
+             scroll-behavior: smooth;
+         }
+         .sidenav .closebtn {
+             position: absolute;
+             top: 0;
+             right: 25px;
+             font-size: 36px;
+             margin-left: 50px;
+         }
+         .sidenav {
+             height: 100%;
+             width: 0;
+             position: fixed;
+             z-index: 5;
+             top: 0;
+             right: 0;
+             background-color: #111;
+             overflow-x: hidden;
+             transition: 0.5s;
+             padding-top: 60px;
+         }
+         
+         .sidenav a {
+             padding: 8px 8px 8px 32px;
+             text-decoration: none;
+             font-size: 25px;
+             color: #818181;
+             display: block;
+             transition: 0.3s;
+             text-transform: uppercase;
+         }
+         
+         .sidenav a:hover {
+             color: #f1f1f1;
+         }
+        
+         }
+         
+
+    .all {
+        position: absolute;
+     
+    }
+    .menu-btn {
+        
+        display: block;
+        position: absolute;
+        z-index:0;
+        margin-top: 50px;
+  margin-left: 50px;
+    }
+     
+     .btn {
+         margin-bottom:3px;
+         width: 30px;
+         height: 2px;
+         background: #f1f1f1;
+         transition: all 0.5s;
+         opacity: 1;
+     }
+     
+     .menu.active {
+         transform: translateX(0);
+     }
+     
+    
+     li a {
+         color: #fff;
+         opacity: 1;
+         text-transform: uppercase;
+     }
+     html {
+         scroll-behavior: smooth;
+     }
+     .sidenav .closebtn {
+         position: absolute;
+         top: 0;
+         right: 25px;
+         font-size: 36px;
+         margin-left: 50px;
+     }
+     .sidenav {
+         height: 100%;
+         width: 0;
+         position: fixed;
+         z-index: 5;
+         top: 0;
+         right: 0;
+         background-color: #111;
+         overflow-x: hidden;
+         transition: 0.5s;
+         padding-top: 60px;
+     }
+     
+     .sidenav a {
+         padding: 59px 8px 8px 32px;
+         text-decoration: none;
+         font-size: 55px;
+         color: #818181;
+         display: block;
+         transition: 0.3s;
+         text-transform: uppercase;
+         text-align: center;
+     }
+     
+     .sidenav a:hover {
+         color: #f1f1f1;
+     }
+
